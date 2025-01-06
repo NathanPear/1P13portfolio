@@ -1,0 +1,83 @@
+.wip{
+    color:lightgrey
+}
+a{
+    color:inherit;
+    text-decoration:inherit;
+}
+
+/*navigation bar stuff*/
+.navBar{
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width:100vw;
+    top:0
+}
+#home{
+    margin-left: 2vw;
+    text-decoration: underline;
+}
+.navList{
+    display: flex;
+    list-style-type: none;
+    flex-direction:row-reverse;
+    gap: 1vw;
+    margin-right: 2vw;
+}
+.navLink{
+    background-color: indianred;
+    font-weight: bold;
+    width:fit-content;
+    padding: 1em;
+}
+.navLink:hover{
+    background-color: white;
+}
+.barFixer{
+    width: 100vw;
+    padding: 0;
+    margin:0;
+    border:0;
+}
+/*content stuff*/
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    top:0px;
+    font-family: Arial;
+    color:white;
+    background-color: salmon;
+}
+.content{
+    padding-top:0px;
+    margin-top: 0px;
+    border-top:0px;
+}
+.heading{
+    padding:2vw;
+    background-color: salmon;
+}
+.textImg{
+    height: 25vh;
+    float: left;
+}
+.oddSection{
+    padding:2vw;
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: row-reverse;
+    gap:2vw;
+}
+.evenSection{
+    padding:2vw;
+    background-color:lightsalmon;
+    display: flex;
+    gap:2vw;
+}
+#tears{
+    margin: auto;
+}
